@@ -1,0 +1,53 @@
+[
+    {
+        "email": "alice@example.com",
+        "name": "Alice",
+        "address": {
+            "number": 1,
+            "street": "George Street",
+            "city": "Sydney",
+            "state": "NSW"
+        }
+    },
+    {
+        "email": "bob@example.com",
+        "name": "Bob",
+        "address": {
+            "number": 2,
+            "street": "Pitt Street",
+            "city": "Sydney",
+            "state": "NSW"
+        }
+    },
+    {
+        "email": "charlie@example.com",
+        "name": "Charlie",
+        "address": {
+            "number": 3,
+            "street": "Castlereagh Street",
+            "city": "Sydney",
+            "state": "NSW"
+        }
+    },
+    {
+        "email": "david@example.com",
+        "name": "David",
+        "address": {
+            "number": 4,
+            "street": "Collins Street",
+            "city": "Melbourne",
+            "state": "VIC"
+        }
+    },
+    {
+        "email": "eve@example.com",
+        "name": "Eve",
+        "address": {
+            "number": 5,
+            "street": "Flinders Street",
+            "city": "Melbourne",
+            "state": "VIC"
+        }
+    }
+]
+

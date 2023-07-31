@@ -1,0 +1,15 @@
+version: "3.6"
+services:
+  web:
+    build: .
+    command: >
+      bash -c " python manage.py makemigrations people
+                python manage.py migrate &&
+                python manage.py load_sample_data
+                python manage.py runserver 0.0.0.0:8000"
+    environment:
+      PYTHONDONTWRITEBYTECODE: 1
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/usr/src/app
